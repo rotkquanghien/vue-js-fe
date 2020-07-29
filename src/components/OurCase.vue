@@ -81,7 +81,7 @@ export default {};
     }
   }
   .d-col3 {
-    height: 300px;
+    padding-top: 25%;
     background-color: #dfe5e8;
   }
   p {

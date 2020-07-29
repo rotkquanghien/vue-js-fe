@@ -2,7 +2,7 @@
   <div class="contact">
     <div class="container">
       <div class="d-row">
-        <div class="d-col3 p15" v-for="(info, index) in dataInfo" :key="index">
+        <div class="d-col3 p15 pd-60" v-for="(info, index) in dataInfo" :key="index">
           <div class="contact-img d-center">
             <img :src="require(`@/images/${info.img}.png`)" alt="" />
           </div>
@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="d-row" style="padding-top: 100px">
+    <div class="d-row" style="padding-top: 60px">
       <div class="col6"></div>
       <div class="col6"></div>
     </div>

@@ -55,7 +55,7 @@
           <div class="wrap-post">
             <div class="post" style=" border-bottom: solid 1px #394050">
               <div class="d-row">
-                <div class="d-col3 ">
+                <div class="d-col3 v15">
                   <div class="igm"></div>
                 </div>
                 <div class="d-col9">
@@ -83,7 +83,7 @@
             </div>
             <div class="post">
               <div class="d-row">
-                <div class="d-col3 ">
+                <div class="d-col3 v15">
                   <div class="igm"></div>
                 </div>
                 <div class="d-col9">
@@ -202,6 +202,9 @@ export default {};
   }
 }
 footer {
+  .v15{
+    padding: 10px 0 !important;
+  }
   .h15{
     padding: 0 10px;
   }

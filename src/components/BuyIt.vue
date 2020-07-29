@@ -7,13 +7,13 @@
           <img src="@/images/logo.png" alt="" />
           <span class="bold">GEM</span>
         </div>
-        <div class="d-col4 d-center">
+        <div class="d-col4 d-center f-center">
           <p class="font-mon" style="line-height: 28px">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos at
             officiis
           </p>
         </div>
-        <div class="d-col4" style="padding: 20px">
+        <div class="d-col4 f-center " style="padding: 20px">
           <button><b style="font-size: 19px">Great, I want to buy it now</b></button>
         </div>
       </div>
@@ -26,6 +26,7 @@ export default {};
 </script>
 
 <style lang="scss">
+
 .buy-it {
   .f-center {
     text-align: center;
@@ -42,7 +43,6 @@ export default {};
   }
 
   button {
-    width: 100%;
     color: #393d50;
     font-weight: 700;
     background-color: #ffcd46;
