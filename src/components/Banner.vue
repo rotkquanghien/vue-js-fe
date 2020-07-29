@@ -12,13 +12,13 @@
         <span class="the">THE</span>
         <span class="gem">OPPORTUNITY.</span>
       </p>
-      <p class="wrap-text" style="font-size: 18px">
-        <span>Step Forward, Lead The Innovation</span>
+      <p class="wrap-text" style=" font-weight: 200">
+        <span style="font-size: 24px !important; text-transform: uppercase">Step Forward, Lead The Innovation</span>
       </p>
       <div class="wrap-text">
         <button class="btn-banner">
-          <i class="fa fa-diamond" aria-hidden="true"></i>
-          OUR SERVICES
+          <i class="fa fa-diamond" aria-hidden="true" style="font-size: 17px !important; padding-right: 10px"></i>
+          <span class="font-mon" style="font-size: 19px">OUR SERVICES</span>
         </button>
       </div>
     </div>
@@ -35,22 +35,22 @@ export default {};
 <style>
 .banner {
   background-color: #ebebeb;
-  padding: 100px 0 60px 0;
+  padding: 160px 0 80px 0;
   position: relative;
 }
 .the {
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 80px;
+  font-weight: 200;
 }
 .gem {
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 700;
 }
 .wrap-text {
   padding: 15px 0;
 }
 .btn-banner {
-  padding: 8px 10px;
+  padding: 10px 25px;
   background-color: #00bcd4;
   color: white;
   border: none;

@@ -14,10 +14,20 @@
         possimus alias!
       </P>
       <div class="d-row" style="justify-content: center; padding-bottom: 100px">
-        <div class="d-colAuto">ALL</div>
-        <div class="d-colAuto">HOVER BUT</div>
-        <div class="d-colAuto">AVTIVE BUT</div>
-        <div class="d-colAuto">CATEGORY 3</div>
+        <div class="col6 d-row p15">
+          <div class="d-colAuto font-mon" style="padding: 7px 30px">ALL</div>
+          <div class="d-colAuto font-mon" style="padding: 7px 30px">
+            HOVER BUT
+          </div>
+        </div>
+        <div class="col6 d-row p15">
+          <div class="d-colAuto font-mon" style="padding: 7px 30px">
+            AVTIVE BUT
+          </div>
+          <div class="d-colAuto font-mon" style="padding: 7px 30px">
+            CATEGORY 3
+          </div>
+        </div>
       </div>
       <div class="d-row">
         <div class="d-col3"></div>
@@ -38,7 +48,7 @@
         style="justify-content: space-between; padding: 100px 0"
       >
         <div class="double-br"></div>
-        <button class="btn-work">MORE WORK</button>
+        <button class="btn-work"><span>MORE WORK</span></button>
         <div class="double-br"></div>
       </div>
     </div>
@@ -51,7 +61,7 @@ export default {};
 
 <style lang="scss">
 .our-case {
-  padding: 140px 0;
+  padding-top: 140px;
   .double-br {
     width: 40%;
     height: 4px;
@@ -66,6 +76,9 @@ export default {};
     border: 1px solid #00bcd4;
     color: #00bcd4;
     background-color: #fff;
+    span{
+      display: inline-block;
+    }
   }
   .d-col3 {
     height: 300px;

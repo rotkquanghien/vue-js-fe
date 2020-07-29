@@ -2,9 +2,9 @@
   <div class="contact">
     <div class="container">
       <div class="d-row">
-        <div class="d-col3" v-for="info in dataInfo" :key="info">
+        <div class="d-col3 p15" v-for="(info, index) in dataInfo" :key="index">
           <div class="contact-img d-center">
-            <img src="@/images/address.png" alt="" />
+            <img :src="require(`@/images/${info.img}.png`)" alt="" />
           </div>
           <div class="contact-name ">
             <h2 class="d-center">{{ info.name }}</h2>
@@ -30,7 +30,7 @@ export default {
     return {
       dataInfo: [
         {
-          img: "@/images/address.png",
+          img: "address",
           name: "ADDRESS",
           content: [
             "908 New Hampshire Avenue ",
@@ -39,30 +39,30 @@ export default {
           ]
         },
         {
-          img: "@/images/address.png",
-          name: "ADDRESS",
+          img: "iphones",
+          name: "PHONE",
           content: [
-            "908 New Hampshire Avenue ",
-            "Northwest #100, Washington, DC20037,",
-            " United States"
+            "Phone: 123456789 ",
+            "Mobile: 1234567890",
+            "Fax: 1234567890"
           ]
         },
         {
-          img: "@/images/address.png",
-          name: "ADDRESS",
+          img: "contact",
+          name: "CONTACT",
           content: [
-            "908 New Hampshire Avenue ",
-            " Northwest #100, Washington, DC20037,",
-            " United States"
+            "abc@gmail.com",
+            " abceee@gmail.com",
+            " abceeeeeeeeeeee@gmail.com"
           ]
         },
         {
-          img: "@/images/address.png",
-          name: "ADDRESS",
+          img: "clocks",
+          name: "WORKING HOURS",
           content: [
-            "908 New Hampshire Avenue ",
-            "Northwest #100, Washington, DC20037,",
-            " United States"
+            "Mon - Fri: 8am - 6pm ",
+            "Sat: 8am - 12am",
+            "Sun: Closed"
           ]
         }
       ]
@@ -95,6 +95,7 @@ export default {
     padding: 25px 0;
   }
   .contact-content {
+    line-height: 25px;
     .d-center {
       color: #99a9b5;
     }

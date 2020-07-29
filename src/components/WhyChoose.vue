@@ -6,7 +6,7 @@
         <span>CHOOSING US</span>
       </div>
       <div class="d-row">
-        <div class="d-col4">
+        <div class="d-col4 brc">
           <div class="d-row">
             <div class="cirr"></div>
             <div style="width: 75%; padding: 0 20px">
@@ -18,7 +18,7 @@
             </div>
           </div>
         </div>
-        <div class="d-col4">
+        <div class="d-col4 brc">
           <div class="d-row">
             <div class="cirr"></div>
             <div style="width: 75%; padding: 0 20px">
@@ -30,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="d-col4">
+        <div class="d-col4 brc">
           <div class="d-row">
             <div class="cirr"></div>
             <div style="width: 75%; padding: 0 20px">
@@ -44,8 +44,8 @@
         </div>
       </div>
       <div class="d-row">
-        <div class="d-col4">
-          <div class="cs-br"></div>
+        <div class="d-col4 brc">
+          <div class="cs-br hidden"></div>
           <div class="d-row">
             <div class="cirr"></div>
             <div style="width: 75%; padding: 0 20px">
@@ -57,8 +57,8 @@
             </div>
           </div>
         </div>
-        <div class="d-col4">
-          <div class="cs-br"></div>
+        <div class="d-col4 brc">
+          <div class="cs-br hidden"></div>
           <div class="d-row">
             <div class="cirr"></div>
             <div style="width: 75%; padding: 0 20px">
@@ -70,8 +70,8 @@
             </div>
           </div>
         </div>
-        <div class="d-col4">
-          <div class="cs-br"></div>
+        <div class="d-col4 brc">
+          <div class="cs-br hidden"></div>
           <div class="d-row">
             <div class="cirr"></div>
             <div style="width: 75%; padding: 0 20px">
@@ -93,7 +93,15 @@ export default {};
 </script>
 
 <style lang="scss">
+@media (max-width: 768px) {
+  .hidden {
+    display: none !important;
+  }
+}
 .choose {
+  .d-row {
+    padding: 15px 0;
+  }
   background-color: #f0f3f2;
   padding: 100px 0;
   .cs-br {
@@ -120,7 +128,7 @@ export default {};
     font-size: 19px;
     font-weight: 500;
     color: #8f9da5;
-    padding: 40px 0;
+    padding: 50px 0 30px 0;
   }
   p {
     font-size: 16px;

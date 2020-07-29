@@ -7,7 +7,9 @@
       <div class="tron"></div>
       <div class="banner2-wrap">
         <h2>JENIFER BURNS</h2>
-        <P>Creative Heads Inc.</P>
+        <p class="font-sans" style="font-size: 14px; color: #b6c6c9">
+          Creative Heads Inc.
+        </p>
       </div>
       <p style="width: 70%; margin: auto">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam culpa
@@ -34,14 +36,14 @@ export default {};
   padding: 100px 0;
   background-color: #f1f1f2;
   .banner2-wrap {
-    padding: 20px 0;
+    padding: 65px 0 5px 0;
   }
   h2 {
     color: #20c3d8;
     font-size: 16px;
   }
   p {
-    padding-bottom: 40px;
+    padding: 12px 0;
   }
   padding: 100px 0;
   h2,

@@ -3,40 +3,37 @@
     <div class="d-row">
       <div
         class="d-col4"
-        style="background-color: #00bcd4; padding: 0 40px 30px 30px;"
+        style="background-color: #00bcd4; padding: 0px 40px 55px 30px;"
       >
-        <div class="case-num">01 .</div>
+        <div class="case-num font-mon">01 .</div>
         <div class="case-name">
-          LOREM <b>IPSUM</b>
+          <span class="font-mon">LOREM</span> <b>IPSUM</b>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-            ullam nesciunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
           </p>
         </div>
       </div>
       <div
         class="d-col4"
-        style="background-color: #37394c; padding: 0 40px 30px 30px;"
+        style="background-color: #37394c; padding: 0px 40px 55px 30px;"
       >
-        <div class="case-num">02 .</div>
+        <div class="case-num font-mon">02 .</div>
         <div class="case-name">
-          LOREM <b>IPSUM</b>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-            ullam nesciunt.
+          <span class="font-mon">LEFT SIDE</span> <b>ALIGNING</b>
+          <p style="color: aliceblue">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
       </div>
       <div
         class="d-col4"
-        style="background-color: #aed581; padding: 0 40px 30px 30px;"
+        style="background-color: #aed581; padding: 0px 40px 55px 30px;"
       >
-        <div class="case-num">03 .</div>
+        <div class="case-num font-mon">03 .</div>
         <div class="case-name">
-          LOREM <b>IPSUM</b>
+          <span class="font-mon">CURUS</span> <b>MAURIS</b>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-            ullam nesciunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
       </div>
@@ -55,6 +52,7 @@ export default {};
     padding: 70px 0;
     font-size: 70px;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif !important;
   }
   .case-name {
     color: aliceblue;
@@ -63,10 +61,19 @@ export default {};
       font-size: 36px;
       color: #e7ff89;
     }
+    span{
+      font-size: 36px;
+      font-weight: 200;
+    }
+    p {
+      font-family: 'Source Sans Pro', sans-serif;;
+      font-size: 24px;
+      font-weight: 200;
+    }
   }
   p {
     padding-top: 30px;
-    width: 70%;
+    width: 80%;
     color: black;
   }
 }

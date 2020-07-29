@@ -2,7 +2,7 @@
   <div class="count-info">
     <div class="container">
       <div class="d-row">
-        <div class="d-col3">
+        <div class="d-col3 p15">
           <div class="cir">
             <div class="cle">
               <div>
@@ -13,33 +13,33 @@
           <h2>2189</h2>
           <p>SUPPORT POSTS</p>
         </div>
-        <div class="d-col3">
+        <div class="d-col3 p15">
           <div class="cir" style="border: solid 4px #7ee0bf;">
             <div class="cle" style="border: solid 2px #7ee0bf; color: #7ee0bf">
               <div>
-                <img src="@/images/compa.png" alt="" />
+                <img src="@/images/man.png" alt="" />
               </div>
             </div>
           </div>
-          <h2 style="color: #7ee0bf">2189</h2>
+          <h2 style="color: #7ee0bf">4789</h2>
           <p>SUPPORT POSTS</p>
         </div>
-        <div class="d-col3">
+        <div class="d-col3 p15">
           <div class="cir" style="border: solid 4px #83bce9;">
             <div class="cle" style="border: solid 2px #83bce9; color: #83bce9">
               <div>
-                <img src="@/images/compa.png" alt="" />
+                <img src="@/images/hv.png" alt="" />
               </div>
             </div>
           </div>
-          <h2 style="color: #83bce9">2189</h2>
-          <p>SUPPORT POSTS</p>
+          <h2 style="color: #83bce9">502</h2>
+          <p>CUSTOMER</p>
         </div>
-        <div class="d-col3">
+        <div class="d-col3 p15">
           <div class="cir" style="border: solid 4px #947fd3;">
             <div class="cle" style="border: solid 2px #947fd3; color: #947fd3">
               <div>
-                <img src="@/images/compa.png" alt="" />
+                <img src="@/images/kimtiem.png" alt="" />
               </div>
             </div>
           </div>
@@ -64,6 +64,9 @@ export default {};
       margin: auto !important;
     }
   }
+}
+@media (max-width: 1024px){
+  
 }
 @media only screen and (max-width: 576px) {
   .count-info {
@@ -101,8 +104,14 @@ export default {};
     padding: 6px 6px 6px 6px;
   }
   .cle {
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-41%, -55%);
+    }
     div {
-      padding: 18%;
+      // padding: 18%;
     }
     width: 100%;
     height: 100%;

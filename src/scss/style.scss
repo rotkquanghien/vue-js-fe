@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+
 
   // font-family: 'Avenir', Helvetica, Arial, sans-serif;
   b,
@@ -10,11 +12,14 @@
   h2,
   h3,
   h4,
+  .font-mon,
   span {
     font-family: 'Montserrat', sans-serif;
   }
 
-  p,li {
+  p,
+  li,
+  .font-sans {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
   }
@@ -30,6 +35,7 @@
 .container {
   max-width: 1170px;
   margin: auto;
+  // padding: 0 15px;
 }
 
 .d-row {
@@ -46,14 +52,17 @@
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
 }
-.d-col6{
-    flex:0 0 50%;
-    max-width: 50%;
+
+.d-col6 {
+  flex: 0 0 50%;
+  max-width: 50%;
 }
-.d-col8{
+
+.d-col8 {
   flex: 0 0 66.66%;
   max-width: 66.66%;
 }
+
 .d-col9 {
   flex: 0 0 75%;
   max-width: 75%;
@@ -73,51 +82,109 @@
     padding-right: 10px;
     font-size: 50px;
   }
+
+  span {
+    font-weight: 200;
+  }
 }
-.d-center{
-    text-align: center;
+
+.d-center {
+  text-align: center;
 }
-.arrow-right{
+
+.arrow-right {
   position: absolute;
   right: 0;
   top: 50%;
 }
-.arrow-left{
+
+.arrow-left {
   position: absolute;
   top: 50%;
 }
-.d-flex{
+
+.d-flex {
   display: flex;
 }
-@media only screen and (max-width: 768px) {
-  .container{
-    padding: 0 10px;
+@media(max-width: 1200px){
+  .container {
+    padding: 0 15px;
   }
-  .d-col3{
+}
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .d-col3 {
     flex: 0 0 50% !important;
     max-width: 50% !important;
   }
-  
-  .d-col8{
+}
+
+@media(max-width: 868px) {
+  * {
+    font-size: 12px ;
+  }
+  .non-pad{
+    padding: 0 !important;
+  }
+  .non-margin{
+    margin: 0 !important;
+  }
+  .ver-pad{
+    padding: 10px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .the,
+  .gem {
+    font-size: 40px !important;
+  }
+
+  .p15 {
+    padding: 20px 0;
+  }
+
+  .d-col3 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+
+  .d-col8 {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
-  .d-col4{
+
+  .d-col4 {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
-  .d-col6{
+
+  .d-col6 {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
-  .d-col9{
+
+  .d-col9 {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
 }
-@media only screen and (max-width: 576px){
-  .d-col3{
+
+@media only screen and (max-width: 576px) {
+  .d-col3 {
     flex: 0 0 100% !important;
     max-width: 100% !important;
+  }
+
+  * {
+    font-size: 10px ;
+  }
+}
+@media (max-width: 475px){
+  * {
+    font-size: 8px;
   }
 }

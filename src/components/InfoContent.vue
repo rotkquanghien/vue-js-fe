@@ -16,7 +16,7 @@
         </div>
         <div class="d-col4">
           <div class="info-content">
-            <div><img src="@/images/icons.png" alt="" /></div>
+            <div><img src="@/images/bags.png" alt="" /></div>
             <h2 class="">Lorem ipsum dolor sit</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -28,7 +28,7 @@
         </div>
         <div class="d-col4">
           <div class="info-content">
-            <div><img src="@/images/icons.png" alt="" /></div>
+            <div><img src="@/images/tivi.png" alt="" /></div>
             <h2 class="">Lorem ipsum dolor sit</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -55,11 +55,14 @@ export default {};
   position: relative;
   h2 {
     font-size: 30px;
-    width: 50%;
+    width: 60%;
     padding: 30px 0;
+    text-transform: uppercase;
+    color: #3c3950;
+    line-height: 40px;
   }
   p {
-    width: 60%;
+    width: 70%;
     padding-bottom: 50px;
     color: #b4bdc3;
     line-height: 26px;
@@ -74,7 +77,7 @@ export default {};
   img {
     position: absolute;
     right: 10%;
-    top: 10%;
+    top: 12%;
   }
 }
 </style>

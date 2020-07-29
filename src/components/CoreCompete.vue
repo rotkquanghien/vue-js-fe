@@ -36,15 +36,15 @@
             <div class="evi-btn d-center">
               <button>LEARN MORE</button>
             </div>
-            <div class="d-line">
+            <div class="d-line hidden">
               <div class="d-linee"></div>
             </div>
           </div>
           <div class="d-col6">
             <div class="evi-img d-center">
-              <img src="@/images/bongden.png" alt="" />
+              <img src="@/images/HCN.png" alt="" style="height: 122px"/>
             </div>
-            <h2 class="d-center"><b>CONSULTING</b></h2>
+            <h2 class="d-center"><b>PROGRAMING</b></h2>
             <p class="d-center">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Cupiditate eos omnis eius esse ipsa deserunt a porro, illum
@@ -54,7 +54,7 @@
             <div class="evi-btn d-center">
               <button>LEARN MORE</button>
             </div>
-            <div class="d-line">
+            <div class="d-line hidden">
               <div class="d-linee"></div>
             </div>
           </div>
@@ -62,9 +62,9 @@
         <div class="d-row">
           <div class="d-col6">
             <div class="evi-img d-center">
-              <img src="@/images/bongden.png" alt="" />
+              <img src="@/images/phone.png" alt="" />
             </div>
-            <h2 class="d-center"><b>CONSULTING</b></h2>
+            <h2 class="d-center"><b>DEVELOPMENT</b></h2>
             <p class="d-center">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Cupiditate eos omnis eius esse ipsa deserunt a porro, illum
@@ -77,9 +77,9 @@
           </div>
           <div class="d-col6">
             <div class="evi-img d-center">
-              <img src="@/images/bongden.png" alt="" />
+              <img src="@/images/cups.png" alt="" />
             </div>
-            <h2 class="d-center"><b>CONSULTING</b></h2>
+            <h2 class="d-center"><b>MAKETING</b></h2>
             <p class="d-center">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Cupiditate eos omnis eius esse ipsa deserunt a porro, illum
@@ -101,6 +101,14 @@ export default {};
 </script>
 
 <style lang="scss">
+@media (max-width: 768px) {
+  .d-col6:nth-child(1),.d-col6:nth-child(2) {
+    border-radius: 0 !important;
+  }
+  .hidden{
+    display: none;
+  }
+}
 .core {
   .d-line {
     height: 1px;
@@ -108,7 +116,7 @@ export default {};
     .d-linee {
       border-bottom: #5f727f 1px dashed;
       padding: 30px 0;
-      width: 90%;
+      width: 96%;
       margin: auto;
     }
   }
@@ -129,7 +137,7 @@ export default {};
         content: "";
         display: block;
         position: absolute;
-        height: 60%;
+        height: 65%;
         border-left: #5f727f 1px dashed;
         width: 1px;
         right: 0;
@@ -161,7 +169,7 @@ export default {};
         border: solid 1px #00bcd4;
         font-size: 14px;
         font-family: "Montserrat", sans-serif;
-        font-weight: 100;
+        font-weight: 200;
       }
     }
     .evi-img {
@@ -176,7 +184,7 @@ export default {};
     }
     p {
       font-size: 16px;
-      color: aliceblue;
+      color: #c9d8e3;
       font-weight: 100;
     }
     background-color: #393b51;
